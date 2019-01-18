@@ -39,9 +39,8 @@ public class Students {
 
     @Override
     public String toString() {
-        return "Students{" +
-                "gender='" + gender + '\'' +
-                ", parentalLevelOfEducation='" + parentalLevelOfEducation + '\'' +
+        return
+
                 ", mathScore=" + mathScore +
                 ", readingScore=" + readingScore +
                 ", WritingScore=" + WritingScore +
