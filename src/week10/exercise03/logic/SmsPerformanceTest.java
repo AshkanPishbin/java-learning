@@ -1,8 +1,8 @@
-package week10.exercise01.exercise03.logic;
+package week10.exercise03.logic;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import week10.exercise01.exercise03.data.SmsPerformance;
+import week10.exercise03.data.SmsPerformance;
 
 import java.util.List;
 import java.util.Optional;
@@ -26,7 +26,6 @@ public class SmsPerformanceTest {
 
         String expected = "ham 86% spam 13%";
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
