@@ -1,7 +1,7 @@
-package week10.exercise01.exercise02.logic;
+package week10.exercise02.logic;
 
-import week10.exercise01.exercise02.data.AverageData;
-import week10.exercise01.exercise02.data.StudentsPerformance;
+import week10.exercise02.data.AverageData;
+import week10.exercise02.data.StudentsPerformance;
 
 import java.util.List;
 import java.util.Map;
