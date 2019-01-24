@@ -1,4 +1,4 @@
-package week10.exercise04.logic.data.reader;
+package week10.exercise04.reader;
 
 import java.io.IOException;
 import java.net.URI;
