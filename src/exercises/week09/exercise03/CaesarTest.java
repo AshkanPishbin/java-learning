@@ -10,15 +10,15 @@ class CaesarTest {
 
     @Test
     void testLowercaseLetter() {
-        String actual = caeser.cipher("ab",2);
-        String expected = "cd";
+        String actual = caeser.cipher("yz",2);
+        String expected = "ab";
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
     void testCapitalLetter() {
-        String actual = caeser.cipher("AB",2);
-        String expected = "CD";
+        String actual = caeser.cipher("YZ",2);
+        String expected = "AB";
         Assertions.assertEquals(expected,actual);
     }
 }

@@ -29,7 +29,8 @@ public class StreamsTest {
         Assertions.assertEquals(expected, endWithM);
 
         List<String> contain = names.stream()
-                .filter(name -> name.contains("e") && name.contains("r"))
+                .filter(name -> name.contains("e"))
+                .filter(name -> name.contains("r"))
                 .collect(Collectors.toList());
         expected = new ArrayList<>(Arrays.asList("Mehran", "Norbert", "Serife"));
         Assertions.assertEquals(expected, contain);
@@ -40,7 +41,7 @@ public class StreamsTest {
                 .filter(name -> name.contains("a"))
                 .filter(name -> name.contains("m"))
                 .map(name -> name.replace("a", "aa"))
-                .peek(name-> System.out.println(name))
+                .peek(name -> System.out.println(name))
                 .collect(Collectors.toList());
         expected = new ArrayList<>(Arrays.asList("maarj", "aamin", "omaar"));
         Assertions.assertEquals(expected, collect);
