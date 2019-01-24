@@ -1,6 +1,6 @@
-package week10.exercise04.logic.data.logic;
+package week10.exercise04.logic;
 
-import week10.exercise04.logic.data.data.CharacterPerformance;
+import week10.exercise04.data.CharacterPerformance;
 
 import java.util.List;
 
