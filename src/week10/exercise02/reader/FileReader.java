@@ -1,4 +1,4 @@
-package week10.exercise01.exercise02.reader;
+package week10.exercise02.reader;
 
 import java.io.IOException;
 import java.net.URI;
