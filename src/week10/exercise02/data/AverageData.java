@@ -1,4 +1,4 @@
-package week10.exercise01.exercise02.data;
+package week10.exercise02.data;
 
 public class AverageData {
     private String gender;
