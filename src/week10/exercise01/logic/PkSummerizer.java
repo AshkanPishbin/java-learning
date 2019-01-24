@@ -1,6 +1,6 @@
-package week10.exercise01.exercise01.logic;
+package week10.exercise01.logic;
 
-import week10.exercise01.exercise01.data.Pokemon;
+import week10.exercise01.data.Pokemon;
 
 import java.util.List;
 import java.util.Set;
