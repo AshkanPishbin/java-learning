@@ -1,4 +1,22 @@
 package exercises.week11.exercise03;
 
-public class moreThan30 {
+import java.util.Map;
+
+public class MoreThan30 extends Time {
+    private NumberToWord numberToWord = new NumberToWord();
+    private Map<Integer, String> numbers = numberToWord.getNumbers();
+
+    @Override
+    public Boolean isInRange(Integer minute) {
+        if (minute > 30 && minute < 60) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String getMessage(Integer hour, Integer minute) {
+        return numbers.get(60-minute) + " to " + numbers.get(hour+1);
+
+    }
 }
